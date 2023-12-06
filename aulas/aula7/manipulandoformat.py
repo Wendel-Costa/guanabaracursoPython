@@ -6,7 +6,13 @@
 
 #{:.3f} : "Limitado a três casas decimais flutuantes"
 
+#{:!<20.3f} : alinha e limita
 
 # print ('texto {} texto'.format(zzz), end=' '): end='' impede a quebra de parágrafo e junta pelo algo dentro das aspas
 
-# print ('texto {} \n texto'.format(zzz), end=' '): \n quebra o parágrafo
+# print ('texto {} \n texto'.format(zzz), end=' '): \n quebra o parágrafoprint
+
+print('======', end='*')
+print('======\n+======')
+#{======*======
+# +======}
